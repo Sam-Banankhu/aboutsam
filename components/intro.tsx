@@ -105,6 +105,7 @@ export default function Intro() {
       >
         <Link
           href={"#contact"}
+          // group helps to hover groups
           className="group flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white outline-none transition hover:scale-110 hover:bg-gray-950 focus:scale-110 focus:bg-gray-950 active:scale-105"
         >
           Contact me here{" "}
@@ -121,14 +122,15 @@ export default function Intro() {
         </a>
 
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/samson-mhango/"
+          // the target specifies redirections
           target="_blank"
           className="flex items-center rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-none transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] focus:text-gray-950 active:scale-105 dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
         <a
-          href="https://github.com"
+          href="https://github.com/Sam-Banankhu"
           target="_blank"
           className="flex items-center rounded-full border border-black/10 bg-white p-4 text-[1.35rem] text-gray-700 outline-none transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] focus:text-gray-950 active:scale-105 dark:bg-white/10 dark:text-white/60"
         >

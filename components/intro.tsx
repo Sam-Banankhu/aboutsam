@@ -8,7 +8,10 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <section>
+    <section
+      id="home"
+      className="mb-28 max-w-[50rem] scroll-mt-[100rem] text-center sm:mb-0"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -74,19 +77,14 @@ export default function Intro() {
         }}
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
       >
-        <span className="font-bold">Hello, I&apos;m Sam Banankhu.</span>{" "}
-        I&apos;m a <span className="font-bold">Data Scientist </span> with{" "}
+        <span className="font-bold">Hello, I'm Sam Banankhu.</span> I'm a{" "}
+        <span className="font-bold">Data Scientist </span> with{" "}
         <span className="font-bold">3 years</span> of experience. I Specialize
         in{" "}
         <span className="italic">
           Machine Learning Models & Data Analytics.{" "}
         </span>
-        My focus is{" "}
-        <span className="underline">
-          Predictive Models and Time-series Analysis with Python
-          {/* (Python.org) */}
-        </span>
-        .
+        In web, my focus is <span className="underline">React (Next.js)</span>.
       </motion.p>
     </section>
   );

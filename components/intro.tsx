@@ -67,7 +67,7 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.p
+      <motion.h1
         initial={{
           opacity: 0,
           y: 100,
@@ -86,7 +86,7 @@ export default function Intro() {
           Machine Learning Models & Data Analytics.{" "}
         </span>
         In web, my focus is <span className="underline">React (Next.js)</span>.
-      </motion.p>
+      </motion.h1>
 
       {/* Contact Section */}
       <motion.div

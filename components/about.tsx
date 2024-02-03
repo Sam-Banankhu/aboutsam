@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import SectionHeading from "./section-heading";
 
 function About() {
   return (
@@ -19,9 +20,7 @@ function About() {
         delay: 0.175,
       }}
     >
-      <h2 className="text-3xl font-medium text-gray-950 dark:text-white">
-        About me
-      </h2>
+      <SectionHeading>About me</SectionHeading>
 
       <p className="mb-3 mt-8 px-4 dark:text-white/80">
         Currently in my final year studying BSc. in{" "}

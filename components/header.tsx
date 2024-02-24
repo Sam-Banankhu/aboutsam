@@ -7,7 +7,7 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 import { useTheme } from "@/context/theme-context";
 import { links } from "@/lib/data";
 // import { cn } from "@/lib/utils";
-
+// main goes here
 export default function header() {
   return (
     <header className="fixed left-0 top-0 z-[999] w-full sm:w-[initial]">
